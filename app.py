@@ -14,9 +14,9 @@ def index():
 def about():
     return render_template('about.html')
 
-@app.route('/form', methods=['GET','POST'])
-def forminput():
-    return render_template('form.html')
+@app.route('/analysis', methods=['GET','POST'])
+def analysis():
+    return render_template('analysis.html')
 
 @app.route('/results', methods=['GET','POST'])
 def result():
